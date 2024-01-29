@@ -1,0 +1,39 @@
+*{
+  background-color:darkkhaki;
+  padding: 0;
+  margin: 0;
+}
+.form-parent{
+  margin: 10% 35%;
+  flex-direction: column;
+  width: 40vw;
+  height: 50vh;
+  margin-left: 300px;
+  font-weight: 900;
+
+}
+.form-parent input{
+  display: block;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color:rgb(230, 178, 110)
+}
+.form-parent p{
+  color: red;
+  font-size: 12px;
+
+}
+
+#register{
+  background-color: firebrick;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  font-weight:bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+#succes_msg{
+  color: green;
+  font-size:large;
+}
